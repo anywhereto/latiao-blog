@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: '辣条的博客',
+  title: '做一个自洽的人',
   author: '辣条加辣',
-  headerTitle: '成为一个自洽的人',
+  headerTitle: '辣条的博客',
   description: 'Become a self-consistent person',
   language: 'zh-cn',
   theme: 'system', // system, dark or light
