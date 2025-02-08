@@ -20,7 +20,7 @@ export default function AuthorLayout({ children, content }: Props) {
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-          <div className="flex flex-col items-center space-x-2 pt-8">
+          <div className="flex flex-col items-center pt-8">
             {avatar && (
               <Image
                 src={avatar}
@@ -41,8 +41,26 @@ export default function AuthorLayout({ children, content }: Props) {
               <SocialIcon kind="bluesky" href={bluesky} />
             </div>
           </div>
-          <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
-            {children}
+          <div className="xl:col-span-2">
+            <div className="prose max-w-none pb-8 pt-8 dark:prose-invert">
+              {children}
+            </div>
+            <div className="border-t border-gray-200 dark:border-gray-700">
+              <div className="flex flex-col items-center py-8 sm:flex-row sm:justify-around">
+                <div className="flex flex-col items-center">
+                  <Image
+                    src="/static/images/qrcode.jpg"
+                    alt="微信公众号二维码"
+                    width={180}
+                    height={180}
+                    className="rounded-lg"
+                  />
+                  <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                    关注公众号「辣条加辣」
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
