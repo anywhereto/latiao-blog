@@ -20,6 +20,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/free-things-to-do.png',
     href: 'https://freethingstodo.net/',
   },
+  {
+    title: 'TransAddr',
+    description: `Transform addresses between different language formats.`,
+    imgSrc: '/static/images/trans.png',
+    href: 'https://www.transaddr.com/',
+  },
 ]
 
 export default projectsData
