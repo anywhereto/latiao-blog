@@ -42,9 +42,7 @@ export default function AuthorLayout({ children, content }: Props) {
             </div>
           </div>
           <div className="xl:col-span-2">
-            <div className="prose max-w-none pb-8 pt-8 dark:prose-invert">
-              {children}
-            </div>
+            <div className="prose max-w-none pb-8 pt-8 dark:prose-invert">{children}</div>
             <div className="border-t border-gray-200 dark:border-gray-700">
               <div className="flex flex-col items-center py-8 sm:flex-row sm:justify-around">
                 <div className="flex flex-col items-center">
