@@ -2,12 +2,12 @@
 const siteMetadata = {
   title: '辣条的博客',
   author: '辣条加辣',
-  headerTitle: '辣条的博客',
-  description: '成为一个自洽的人',
+  headerTitle: '成为一个自洽的人',
+  description: 'Become a self-consistent person',
   language: 'zh-cn',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://dev-life.online',
+  siteRepo: 'https://github.com/zhangchenchen/latiao-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
