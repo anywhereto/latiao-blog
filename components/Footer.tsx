@@ -26,7 +26,9 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400"></div>
+        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
+          <Link href="/blog/privacy-policy">隐私政策</Link>
+        </div>
       </div>
     </footer>
   )
