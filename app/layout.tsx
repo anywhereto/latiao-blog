@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     images: [siteMetadata.socialBanner],
   },
   other: {
-    'google-site-verification': 'ZxcyAtlW9w-boKQomUXl4sOyJYYQdcg5hXh-sDcBr9o'
-  }
+    'google-site-verification': 'ZxcyAtlW9w-boKQomUXl4sOyJYYQdcg5hXh-sDcBr9o',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
