@@ -24,4 +24,15 @@
 
 博客是基于 [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 和 [Tailwind CSS](https://tailwindcss.com/) 搭建的。
 
+## build && run
+
+```bash
+yarn build
+```
+
+## 运行
+
+```bash
+yarn dev
+```
 

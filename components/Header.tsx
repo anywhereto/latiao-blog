@@ -20,9 +20,9 @@ const Header = () => {
             <Image
               src="/static/images/logo.png"
               alt="logo"
-              width={32}
-              height={32}
-              className="w-auto h-auto"
+              className="h-auto w-auto"
+              width={50}
+              height={50}
             />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
