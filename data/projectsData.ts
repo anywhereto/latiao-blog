@@ -26,6 +26,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/trans.png',
     href: 'https://www.transaddr.com/',
   },
+  {
+    title: 'Street Racer Game',
+    description: `A game studio collected street racer games from all over the world.`,
+    imgSrc: '/static/images/street-racer.png',
+    href: 'https://streetracer.online/',
+  },
 ]
 
 export default projectsData
