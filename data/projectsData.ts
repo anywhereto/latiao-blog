@@ -32,6 +32,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/street-racer.png',
     href: 'https://streetracer.online/',
   },
+  {
+    title: 'How to explain',
+    description: `An AI tool to help you explain things to others.`,
+    imgSrc: '/static/images/how_to_explain.png',
+    href: 'https://howtoexplain.xyz/',
+  },
 ]
 
 export default projectsData
