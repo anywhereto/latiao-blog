@@ -38,6 +38,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/how_to_explain.png',
     href: 'https://howtoexplain.xyz/',
   },
+  {
+    title: 'Nova AI Toolkit',
+    description: `A comprehensive platform integrating various AI tools.`,
+    imgSrc: '/static/images/nova.png',
+    href: 'https://novatoolkit.ai/',
+  },
 ]
 
 export default projectsData
