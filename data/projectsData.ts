@@ -21,12 +21,6 @@ const projectsData: Project[] = [
     href: 'https://freethingstodo.net/',
   },
   {
-    title: 'TransAddr',
-    description: `Transform addresses between different language formats.`,
-    imgSrc: '/static/images/trans.png',
-    href: 'https://www.transaddr.com/',
-  },
-  {
     title: 'Street Racer Game',
     description: `A game studio collected street racer games from all over the world.`,
     imgSrc: '/static/images/street-racer.png',
@@ -43,6 +37,12 @@ const projectsData: Project[] = [
     description: `A comprehensive platform integrating various AI tools.`,
     imgSrc: '/static/images/nova.png',
     href: 'https://novatoolkit.ai/',
+  },
+  {
+    title: 'Ghibli Style Image',
+    description: `Transform Your Ideas into Ghibli Style Image.`,
+    imgSrc: '/static/images/ghibli.png',
+    href: 'https://ghiblistyleimage.org/',
   },
 ]
 
