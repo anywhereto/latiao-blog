@@ -44,6 +44,19 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/ghibli.png',
     href: 'https://ghiblistyleimage.org/',
   },
+  {
+    title: 'dreamactor-m1',
+    description: `Holistic, Expressive and Robust Human Image Animation
+with Hybrid Guidance`,
+    imgSrc: '/static/images/dreamactor.png',
+    href: 'https://dreamactor-m1.org/',
+  },
+  {
+    title: 'Query GPT',
+    description: `Transform Natural Language into Perfect SQL.`,
+    imgSrc: '/static/images/querygpt.png',
+    href: 'https://query-gpt.com/',
+  }
 ]
 
 export default projectsData
