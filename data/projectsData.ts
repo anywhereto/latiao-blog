@@ -56,6 +56,12 @@ with Hybrid Guidance`,
     description: `Transform Natural Language into Perfect SQL.`,
     imgSrc: '/static/images/querygpt.png',
     href: 'https://query-gpt.com/',
+  },
+  {
+    title: 'AI-Powered UI Prompt Explorer',
+    description: `Explore UI themes and generate prompts in the same style for your designs.`,
+    imgSrc: '/static/images/uiprompt.png',
+    href: 'https://uiprompt.art/',
   }
 ]
 
