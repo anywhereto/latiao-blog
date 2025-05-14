@@ -70,8 +70,6 @@ module.exports = () => {
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
-      // 忽略构建时的 Prettier 错误
-      ignoreDuringBuilds: true,
     },
     images: {
       remotePatterns: [
@@ -81,11 +79,6 @@ module.exports = () => {
         },
       ],
       unoptimized,
-    },
-    i18n: {
-      locales: ['zh', 'en'],
-      defaultLocale: 'zh',
-      localeDetection: false,
     },
     async headers() {
       return [
