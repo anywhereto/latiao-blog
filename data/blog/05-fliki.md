@@ -1,0 +1,87 @@
+---
+title: '每天深扒一个海外AI产品(5)---Fliki'
+date: '2025-05-14'
+tags: ['AI 出海']
+draft: false
+summary: 'AI 短视频'
+---
+
+# 每天深扒一个海外AI产品(5)--- Fliki
+
+
+这个系列主要是自己想多看一些海外做的比较成功的AI产品，尝试拆解一下他们的冷启动，SEO，增长策略，当然还有产品层面，看看能不能从他们身上学到一些东西，尤其是对于独立开发者以及中小团队来说有没有借鉴的地方。
+
+我每天最多会花2到3个小时的时间，精力有限，认知也有限，难免纰漏，欢迎评论指正。
+
+## 今天的主角：Fliki 
+
+两个主角吧，一个是Fliki，一个是faceless video, 因为正好搜到了，两者都是主做社媒视频生成的，就正好做个比较，当然fliki做的范围更广一些，可以将text/idea/blog/ppt 等一键生成视频，我算是Fliki 的早期用户了，去年年初的时候就是付费用户了，当然他做的也比较早，2022年就开始做了，当时还只是脚本生成视频/音频，而且主打的音频，没想到搭上AI的风之后发展的这么好。
+
+![oldeastfliki](/static/images/05-fliki/oldeastfliki.png)
+
+
+fliki 的流量大概200万左右，构成几乎一半是直接打开，一般是有机搜索，说明品牌构建跟SEO 做的都很好。
+
+![fliki-index](/static/images/05-fliki/fliki-index.png)
+
+### SEO 
+
+- 1，hero section 的video 展示，大客户的logo 背书。
+
+![logofliki](/static/images/05-fliki/logofliki.png)
+
+- 2, footer section 展示尽可能多的有用链接。
+![footerfliki](/static/images/05-fliki/footerfliki.png)
+
+- 3,Fliki 的网站组织方式也很有意思，分为feature（也就是tools），use case, explore(包括guide/blog/tutoarials等)，有意思的是use case， 他会列出对应的目标场景，还可以针对场景需求词作些SEO 的优化，嗯，又学到了一招，再也不担心网站加完功能完后不知道干啥了。
+
+![usecase-flik](/static/images/05-fliki/usecase-flik.png)
+
+- 4，虽然fliki 现在主打的是一键生成视频，但是这个主功能的一些小模块也都拆成了一个个小工具，比如，AI Voiceover,AI Avatar, Thumbnail Maker等，这些免费小工具也是流量吸铁石。
+- 5, 针对流量不错的长尾词专门做了工具页面，PS:这些长尾词本身就是流量大词啊
+
+![videogeneratorfliki](/static/images/05-fliki/videogeneratorfliki.png)
+
+- 6，工具页无需登录且添加what is/faq/how to use, 都是常规操作了。
+
+- 7， 博客做的很出彩，更新频繁，且会抓热点，获取到的关键词有很多是博客来的。这一点值得学习，他的很多博客针对用户需求场景来写，也就是说，他的用户是做社媒的，那么他就要发做社媒的人关心的事情，比如 what-is-youtube-automation， 尽管这个跟他的视频生成没关系，但是潜在客户会关心，那他就会去关心。
+
+![blog](/static/images/05-fliki/blog.png)
+
+![blog2](/static/images/05-fliki/blog2.png)
+
+Fliki 的用户体验也很棒，当时就是感觉它的用户体验好才放弃了另一家，转投他们的，细节很多，跟增长关系不大就不说了（其实很大，纯粹懒）。
+
+### Faceless video
+
+Faceless video（https://faceless.video/）看域名就知道人家就是瞄准这个关键词来的，它完全使用无代码平台 Bubble 构建，并在不到一年的时间内实现了超过 100 万美元的年经常性收入（ARR）和超过 85 万的用户。核心服务是利用 AI 自动化创建和发布定制化的“无面孔”视频，主要用于 TikTok 等社交媒体平台，帮助用户在不露脸的情况下增长在线影响力。
+
+![facelessindex](/static/images/05-fliki/facelessindex.png)
+
+这家伙的seo 没咋用功，目前也只有24个页面，最重要的工具页面还得登录才能进入，为啥人家能增涨这么快呢？
+
+让谷歌帮忙deep search一下，果然是在reddit 以及TikTok上下了一些功夫，它在官网显著位置展示用户获得高播放量的案例，以此作为资本来吸引新用户。
+
+![viewfaceless](/static/images/05-fliki/viewfaceless.png)
+
+Faceless video值得学习的一点是它的确够垂直，而且使用非常无脑，一点学习负担都没有。他内置了很多模版，选中模版然后写上文字，选一些特效，不断的点点点可以生成了。
+
+![gif](/static/images/05-fliki/gif.png)
+
+
+## 一些 takeway
+
+1. **垂直细分市场的重要性**：Faceless Video 专注于无面孔视频的丝滑生成。这种聚焦策略使他们能够深入满足特定用户群体的需求，而不是试图成为"万能"工具。
+
+2. **SEO 与产品体验的平衡**：Fliki 在 SEO 方面投入大量精力，但同时也确保了优质的用户体验。这种平衡是关键 - 吸引用户到达网站只是第一步，留住他们才是真正的挑战。
+
+3. **工具拆分策略**：将主要功能拆分成多个小工具（如 AI Voiceover、Thumbnail Maker 等）不仅增加了 SEO 曝光面，也降低了用户的试用门槛。这些"免费小工具"成为了有效的用户获取渠道。
+
+4. **内容营销的针对性**：Fliki 的博客内容不仅仅是为了 SEO，更是针对目标用户的实际需求和痛点。他们不局限于直接相关的主题，而是覆盖目标用户关心的广泛话题（如 YouTube 自动化），这种方法显著扩大了潜在受众范围。
+
+5. **用例驱动的网站结构**：Fliki 的网站组织按功能、用例和探索内容分类，这种结构不仅对 SEO 友好，也帮助不同阶段的用户快速找到所需信息。
+
+6. **长尾关键词策略**：针对特定长尾关键词创建专门的工具页面，即使这些词本身就是低流量词，也能获取到一些流量，积少成多。
+
+
+
