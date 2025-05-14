@@ -1,7 +1,7 @@
 ---
 title: '每天深扒一个海外AI产品(6)---Easy Gen'
 date: '2025-05-15'
-tags: ['AI 出海']
+tags: ['AI出海']
 draft: false
 summary: 'The Linkedin Post Generator'
 ---
