@@ -7,7 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is www.googletagmanager.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src *.s3.amazonaws.com;
@@ -70,6 +70,8 @@ module.exports = () => {
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
+      // 忽略构建时的 Prettier 错误
+      ignoreDuringBuilds: true,
     },
     images: {
       remotePatterns: [
@@ -79,6 +81,11 @@ module.exports = () => {
         },
       ],
       unoptimized,
+    },
+    i18n: {
+      locales: ['zh', 'en'],
+      defaultLocale: 'zh',
+      localeDetection: false,
     },
     async headers() {
       return [

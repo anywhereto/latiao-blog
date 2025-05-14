@@ -28,8 +28,6 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
   const basePath = pathname
     .replace(/^\//, '') // Remove leading slash
     .replace(/\/page\/\d+$/, '') // Remove any trailing /page
-  console.log(pathname)
-  console.log(basePath)
   const prevPage = currentPage - 1 > 0
   const nextPage = currentPage + 1 <= totalPages
 
@@ -80,11 +78,17 @@ export default function ListLayoutWithTags({
 
   const displayPosts = initialDisplayPosts.length > 0 ? initialDisplayPosts : posts
 
+  let currentTag = ''
+  if (pathname.includes('/tags/') && pathname.split('/tags/').length > 1) {
+    const tagPath = pathname.split('/tags/')[1].split('/')[0]
+    currentTag = decodeURIComponent(tagPath)
+  }
+
   return (
     <>
       <div>
         <div className="pb-6 pt-6">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:hidden sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:hidden sm:text-4xl sm:leading-10 md:text-6xl md:leading-14" suppressHydrationWarning>
             {title}
           </h1>
         </div>
@@ -103,11 +107,11 @@ export default function ListLayoutWithTags({
               )}
               <ul>
                 {sortedTags.map((t) => {
+                  const isActive = slug(t) === slug(currentTag)
                   return (
                     <li key={t} className="my-3">
-                      {pathname.split('/tags/')[1] &&
-                      decodeURIComponent(pathname.split('/tags/')[1]) === slug(t) ? (
-                        <h3 className="inline px-3 py-2 text-sm font-bold uppercase text-primary-500">
+                      {isActive ? (
+                        <h3 className="inline px-3 py-2 text-sm font-bold uppercase text-primary-500" suppressHydrationWarning>
                           {`${t} (${tagCounts[t]})`}
                         </h3>
                       ) : (
