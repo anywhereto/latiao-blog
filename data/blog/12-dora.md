@@ -6,7 +6,7 @@ draft: false
 summary: 'Start with AI,ship 3D animated sites with zero code'
 ---
 
-# 每天深扒一个海外赚钱AI产品(10)--- Dora AI
+# 每天深扒一个海外赚钱AI产品(12)--- Dora AI
 
 这个系列主要是自己想多看一些海外做的比较成功的AI产品，尝试拆解一下他们的冷启动，SEO，增长策略，当然还有产品层面，看看能不能从他们身上学到一些东西，尤其是对于独立开发者以及中小团队来说有没有借鉴的地方。
 
@@ -40,7 +40,7 @@ Hero 部分的3D 动画比较吸人眼球。
 
 ![nav](/static/images/12-dora/nav.png)
 
-比较奇怪，他为什么没有做一些free tool 来做增长。
+比较奇怪，他为什么没有做一些free tool 来做增长，这个才是现在的增长神器啊。
 
 
 ### 产品功能
