@@ -1,5 +1,5 @@
 ---
-title: '每天深扒一个海外赚钱AI产品(21)---nichess'
+title: '每天深扒一个海外赚钱AI产品(21)---小工具集合该怎么玩'
 date: '2025-06-04'
 tags: ['AI出海']
 draft: false

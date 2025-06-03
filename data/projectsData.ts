@@ -30,7 +30,13 @@ const projectsData: Project[] = [
     description: `Explore UI themes and generate prompts in the same style for your designs.`,
     imgSrc: '/static/images/uiprompt.png',
     href: 'https://uiprompt.art/',
-  }
+  },
+  {
+    title: 'TopSub',
+    description: `一个可以非常方便的查看subreddit 热榜的工具`,
+    imgSrc: '/static/images/topsub.png',
+    href: 'https://topsub.cc/',
+  },
 ]
 
 export default projectsData
