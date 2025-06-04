@@ -3266,6 +3266,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stagewise/toolbar-next@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@stagewise/toolbar-next@npm:0.2.0"
+  dependencies:
+    "@stagewise/toolbar-react": 0.2.0
+  peerDependencies:
+    "@types/react": ">=18.0.0"
+    next: ">=14.0.0"
+    react: ">=18.0.0"
+  checksum: c2ceca0ded121c7f81602416de25ab92f29c7589e3a98b542f8fd40244cee28ce975c3cc5efad9d6826534489f04b6b1d567e1b6ee8580b4275bda39e999b7c2
+  languageName: node
+  linkType: hard
+
+"@stagewise/toolbar-react@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@stagewise/toolbar-react@npm:0.2.0"
+  dependencies:
+    "@stagewise/toolbar": 0.3.0
+  peerDependencies:
+    "@types/react": ">=18.0.0"
+    react: ">=18.0.0"
+  checksum: bb5fb4ad799f473c990ef261e5ed66d0d0141e6aa14fa429d7f7e4d5f0e99b2e4ec8e12b28c0ca2b1bf95de026a733c56016a5ff66a7fb152a1f7244c5194cbf
+  languageName: node
+  linkType: hard
+
+"@stagewise/toolbar@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@stagewise/toolbar@npm:0.3.0"
+  checksum: 9e7a4ac5284afd052ddcb1b10f6f214a9c3b614337b8215dea4b2eda212f9dd7f14106225687c281c6caa60d489be84a773b559ee07be09ba44f275562855422
+  languageName: node
+  linkType: hard
+
 "@svgr/babel-plugin-add-jsx-attribute@npm:8.0.0":
   version: 8.0.0
   resolution: "@svgr/babel-plugin-add-jsx-attribute@npm:8.0.0"
@@ -11514,6 +11546,7 @@ __metadata:
     "@eslint/js": ^9.16.0
     "@headlessui/react": 2.2.0
     "@next/bundle-analyzer": 15.1.4
+    "@stagewise/toolbar-next": ^0.2.0
     "@svgr/webpack": ^8.0.1
     "@tailwindcss/forms": ^0.5.9
     "@tailwindcss/typography": ^0.5.15

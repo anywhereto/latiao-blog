@@ -5,7 +5,10 @@ export default function Document() {
   return (
     <Html lang={siteMetadata.language}>
       <Head>
-        <meta name="google-site-verification" content="ZxcyAtlW9w-boKQomUXl4sOyJYYQdcg5hXh-sDcBr9o" />
+        <meta
+          name="google-site-verification"
+          content="ZxcyAtlW9w-boKQomUXl4sOyJYYQdcg5hXh-sDcBr9o"
+        />
         <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
@@ -21,4 +24,4 @@ export default function Document() {
       </body>
     </Html>
   )
-} 
+}

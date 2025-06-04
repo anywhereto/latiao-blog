@@ -12,11 +12,19 @@ import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 
+// Import stagewise toolbar for development
+import { StagewiseToolbar } from '@stagewise/toolbar-next'
+
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-space-grotesk',
 })
+
+// Stagewise configuration
+const stagewiseConfig = {
+  plugins: [],
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -107,6 +115,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </SearchProvider>
             <Footer />
           </SectionContainer>
+          {/* Stagewise toolbar - only in development */}
+          {process.env.NODE_ENV === 'development' && <StagewiseToolbar config={stagewiseConfig} />}
         </ThemeProviders>
       </body>
     </html>
