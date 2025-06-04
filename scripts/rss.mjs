@@ -44,7 +44,7 @@ async function generateRSS(config, allBlogs, page = 'feed.xml') {
   const publishPosts = allBlogs.filter((post) => post.draft !== true)
   // RSS for blog post
   if (publishPosts.length > 0) {
-    const rss = generateRss(config, sortPosts(publishPosts))
+    const rss = generateRss(config, sortPosts(publishPosts), page)
     writeFileSync(`./${outputFolder}/${page}`, rss)
   }
 
@@ -63,7 +63,9 @@ async function generateRSS(config, allBlogs, page = 'feed.xml') {
 }
 
 const rss = () => {
-  generateRSS(siteMetadata, allBlogs)
+  // Generate both feed.xml (legacy) and rss.xml (new format)
+  generateRSS(siteMetadata, allBlogs, 'feed.xml')
+  generateRSS(siteMetadata, allBlogs, 'rss.xml')
   console.log('RSS feed generated...')
 }
 export default rss
