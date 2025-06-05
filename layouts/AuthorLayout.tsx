@@ -67,7 +67,7 @@ export default function AuthorLayout({ children, content }: Props) {
                     className="rounded-lg"
                   />
                   <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                    关注公众号「辣条加辣」
+                    关注公众号「辣条加辣」,我会分享更多独立开发/出海/增长相关内容
                   </p>
                 </div>
               </div>
