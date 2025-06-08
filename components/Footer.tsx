@@ -29,6 +29,8 @@ export default function Footer() {
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="/blog/privacy-policy">隐私政策</Link>
+          <span className="mx-2">•</span>
+          <Link href="/terms-of-service">服务条款</Link>
         </div>
       </div>
     </footer>

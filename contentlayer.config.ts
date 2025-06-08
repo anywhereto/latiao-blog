@@ -142,6 +142,22 @@ export const Authors = defineDocumentType(() => ({
     bluesky: { type: 'string' },
     linkedin: { type: 'string' },
     github: { type: 'string' },
+    linktree: { type: 'string' },
+    layout: { type: 'string' },
+  },
+  computedFields,
+}))
+
+export const Pages = defineDocumentType(() => ({
+  name: 'Pages',
+  filePathPattern: 'pages/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    date: { type: 'date' },
+    lastmod: { type: 'date' },
+    draft: { type: 'boolean' },
+    summary: { type: 'string' },
     layout: { type: 'string' },
   },
   computedFields,
@@ -149,7 +165,7 @@ export const Authors = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Blog, Authors],
+  documentTypes: [Blog, Authors, Pages],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
