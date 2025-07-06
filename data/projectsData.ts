@@ -37,6 +37,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/topsub.png',
     href: 'https://topsub.cc/',
   },
+  {
+    title: 'SaaS Ideas',
+    description: `Discover profitable niche ideas and specialized SaaS opportunities based on real Fiverr demand`,
+    imgSrc: '/static/images/300.png',
+    href: 'https://micro-saas-ideas.com/',
+  },
 ]
 
 export default projectsData
