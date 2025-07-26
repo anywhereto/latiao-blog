@@ -43,6 +43,13 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/300.png',
     href: 'https://micro-saas-ideas.com/',
   },
+  {
+    title: 'viral short maker',
+    description: `One-Click Viral Shorts Creator - No Prompt Needed`,
+    imgSrc: '/static/images/viral-hero.png',
+    href: 'https://viralshortmaker.com/',
+  }
+
 ]
 
 export default projectsData
